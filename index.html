@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="./assets/encrypt.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main id="presentacion">
+      <div id="presentacion_seccion_activa">
+        <img src="./assets/encrypt.png" alt="Encrypt" />
+        <textarea
+          id="texto_base"
+          placeholder="Ingrese el texto aqui"
+          rows="20"
+        ></textarea>
+        <p>*Solo letras minusculas y sin acentos.</p>
+        <div id="presentacion_botones_funciones">
+          <button onclick="encriptarTexto()" class="boton">Encriptar</button>
+          <button onclick="desencriptarTexto()" class="boton">
+            Desencriptar
+          </button>
+        </div>
+      </div>
+
+      <div id="presentacion_seccion_pasiva">
+        <p id="texto_modificado">
+          Ingresa el texto que desees encriptar o desencriptars
+        </p>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

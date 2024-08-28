@@ -1,0 +1,70 @@
+body {
+    background-color: lightblue;
+}
+
+#presentacion {
+    padding: 5%;
+    display: flex;
+    flex:auto;
+    align-items: center;
+    gap: 16px
+}
+
+#presentacion_seccion_activa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+#presentacion_seccion_activa img {
+    width: 5%;
+}
+
+#presentacion_seccion_activa p {
+    text-align: center;
+}
+
+#presentacion_seccion_activa textarea {
+    background: transparent;
+    color: darkblue;
+    resize: both;
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 100%;
+}
+
+#presentacion_botones_funciones {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.boton {
+    border: 2px solid darkblue;
+    border-radius: 24px;
+    padding: 24px;
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+    color: darkblue;
+}
+
+.boton:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#presentacion_seccion_pasiva {
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 24px;
+    border: 1px solid white;
+    background-color: white;
+}
